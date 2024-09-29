@@ -1,2 +1,2 @@
-# applied_statistics_assesment
+# Applied Atatistics Assesment
 Applied Statistics Assesment
