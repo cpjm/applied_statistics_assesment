@@ -6,12 +6,12 @@ Applied Statistics Assesment
 # Applied Statistics Assignment
 
 This repository contains my assesment submission for the module Applied Statistics, where various statistical tests are performed on the `PlantGrowth` dataset to analyze the differences between different treatment groups.
-
+  
 ### Project Overview
 
-In this project, I perform **statistical analysis** using Python to determine whether there are significant differences between different treatment groups of plants. Specifically, I perform:
-1. A **t-test** to compare two treatment groups, trt1 trt2`, and check if there is a significant difference in plant weights between them.
-2. An **ANOVA (Analysis of Variance)** test to analyze whether there is a significant difference between three treatment groups ctrl, trt1 and trt2.
+In this project, we perform **statistical analysis** using Python to determine whether there are significant differences between different treatment groups of plants. Specifically, we perform:
+1. A **t-test** to compare two treatment groups (`trt1` and `trt2`) and check if there is a significant difference in plant weights between them.
+2. An **ANOVA (Analysis of Variance)** test to analyze whether there is a significant difference between three treatment groups (`ctrl`, `trt1`, and `trt2`).
 
 The data used for this analysis is from the `PlantGrowth` dataset, which includes plant weights under different treatment groups.
 
@@ -22,6 +22,8 @@ The data used for this analysis is from the `PlantGrowth` dataset, which include
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
 - [Installation and Requirements](#installation-and-requirements)
+- [Running the Notebook](#running-the-notebook)
+- [Using the `requirements.txt`](#using-the-requirementstxt)
 - [Statistical Analysis](#statistical-analysis)
   - [T-Test](#t-test)
   - [ANOVA](#anova)
@@ -41,14 +43,14 @@ The dataset is taken from the R `datasets` library and is available from [R Data
 
 ## Installation and Requirements
 
-Before running the code, ensure you have the following Python libraries installed:
+Before running the notebook, ensure that you have the following Python libraries installed:
 
 - `pandas`
 - `scipy`
 - `numpy`
+- `matplotlib` (optional, for visualizations)
 
 You can install the required libraries by running the following commands:
 
 ```bash
-pip install pandas scipy numpy
-
+pip install pandas scipy numpy matplotlib
